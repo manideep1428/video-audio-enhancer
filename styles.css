@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #ecf0f1;
+    --text-color: #34495e;
+}
+.title {
+    font-size: 2.2em;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1em;
+}
+.subtitle {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 2em;
+}
+.stButton>button {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    display: block;
+    margin: 1em auto;
+    transition: background-color 0.3s ease;
+}
+.stButton>button:hover {
+    background-color: #2980b9;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.progress-container {
+    margin-top: 1em;
+    text-align: center;
+}
+.status-text {
+    font-size: 1em;
+    color: var(--text-color);
+    margin-bottom: 0.5em;
+}
+.stProgress > div > div > div {
+    background-color: var(--primary-color);
+}
+.upload-text {
+    font-size: 1.1em;
+    color: var(--secondary-color);
+    margin-bottom: 1em;
+}
